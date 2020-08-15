@@ -1,0 +1,64 @@
+.text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    
+  }
+
+.text1 {
+    background-color: pink ;
+    column-count: 3;
+    width: 450px; 
+    height: 300px;
+}
+
+.text2 {
+    background-color: yellow ;
+    width: 450px; 
+    height: 300px;
+}
+
+.text3 {
+    background-color: pink ;
+    width: 450px; 
+    height: 300px;
+}
+
+.text4 {
+text-align: center;
+}
+
+
+.text5 {
+    background-color: pink ;
+    width: 500px; 
+    height: 300px;
+}
+
+
+.text6 {
+    background-color: yellowgreen ;
+    width: 500px; 
+    height: 300px;
+}
+
+
+.text7 {
+    background-color: rgb(44, 168, 152) ;
+    width: 500px; 
+    height: 300px;
+}
+
+.text8 {
+    background-color: pink ;
+    width: 500px; 
+    height: 300px;
+}
+
+.text9 {
+    background-color: thistle;
+}
+
+.text10 {
+   margin-bottom: 35px;
+}

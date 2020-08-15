@@ -1,0 +1,63 @@
+
+<div class="container text9">
+    <h1>Employee Details</h1>
+    <ul *ngFor ="let employee of employees">
+        <li> {{employee.id}}. {{employee.name}} - {{employee.age}} </li>
+    </ul>
+    <h3>Message in console</h3>
+    <button class="btn btn-info" (click)="sayHellow();">say hellow</button>
+</div>
+<br>
+<br>
+
+
+
+<h1 class="text4">Using normal css</h1>
+
+<div class="text">
+   <div class="text1">
+  </div>
+  <div class="text2">
+    <h3 class="text4">Product Details</h3>
+    <table>
+        <thead>
+          <tr class="text4">
+            <th>Id</th>
+            <th>Name</th>
+            <th>Brand</th>
+            <th>Price in Rs.</th>
+          </tr>
+        </thead>
+        <tbody class="text4">
+          <tr *ngFor="let product of products">
+            <td>{{product.id}}</td>
+            <td>{{product.name}}</td>
+            <td>{{product.brand}}</td>
+            <td>{{product.price}}</td>
+          </tr>
+        </tbody>
+    </table>
+  </div>
+ <div class="text3">
+ </div>
+</div>
+<br>
+<br>
+
+<div class="container">
+  <h1 class="text10 text4">Using bootstrap css</h1>
+  <div class="row">
+   <div class="col-md-3 text5">
+     <p>column.1</p>
+   </div>
+   <div class="col-md-3 text6">
+    <p>column.2</p>
+  </div>
+  <div class="col-md-3 text7">
+    <p>column.3</p>
+  </div>
+  <div class="col-md-3 text8">
+    <p>column.4</p>
+  </div>
+</div>
+</div>
